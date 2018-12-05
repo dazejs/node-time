@@ -1,6 +1,6 @@
 {
   "name": "@dazejs/time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist  --copy-files",
@@ -14,11 +14,20 @@
   ],
   "author": "Chan Zewail",
   "license": "MIT",
-  "description": "",
+  "description": "用于获取各种类型时间戳",
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "jest": "^23.6.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dazejs/time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dazejs/time/issues"
+  },
+  "homepage": "https://github.com/dazejs/time#readme"
 }

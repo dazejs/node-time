@@ -1,4 +1,4 @@
-declare module "time" {
+declare module "@dazejs/time" {
   export default class Time {
     /**
    * start and end timestamps for today
